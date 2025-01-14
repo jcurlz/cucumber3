@@ -20,6 +20,8 @@ public class CommonSteps {
 	@Before
 	public void beforeTest(Scenario scenario) {
 		System.out.println("------------------- Before each Scenario----------------------");
+		System.out.println("##################### TEST STARTS ##########################");
+	
 		System.out.println("\nScenario Title : " +scenario.getName().toUpperCase());
 		WebDriverManager.chromedriver().setup();
 
@@ -42,6 +44,7 @@ public class CommonSteps {
 			scenario.attach(screenshot, "image/png", scenario.getName());
 		}
 		System.out.println("------------------- After each Scenario----------------------");
+		System.out.println("##################### TEST ENDS ##########################");
 	}
 
 	public WebDriver returnURL() {

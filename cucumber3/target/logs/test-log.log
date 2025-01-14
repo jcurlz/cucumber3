@@ -62,3 +62,9 @@
 2025-01-14 11:27:40 [main] INFO  com.tem.stepDefinitions.Scenario1 - I click on Advanced search link search
 2025-01-14 11:27:41 [main] INFO  com.tem.stepDefinitions.Scenario1 - I navigate to search page
 2025-01-14 11:27:41 [main] INFO  com.tem.stepDefinitions.Scenario1 - Test Passed: Navigation successful
+2025-01-14 16:36:50 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 131.0.6778.264 (resolved driver for Chrome 131)
+2025-01-14 16:36:50 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\jbridget\.cache\selenium\chromedriver\win64\131.0.6778.264\chromedriver.exe
+2025-01-14 16:36:58 [main] INFO  com.tem.stepDefinitions.Scenario1 - I am on Ebay Homepage
+2025-01-14 16:36:59 [main] INFO  com.tem.stepDefinitions.Scenario1 - I click on Advanced search link search
+2025-01-14 16:37:00 [main] INFO  com.tem.stepDefinitions.Scenario1 - I navigate to search page
+2025-01-14 16:37:00 [main] INFO  com.tem.stepDefinitions.Scenario1 - Test Passed: Navigation successful
